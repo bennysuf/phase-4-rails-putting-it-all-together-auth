@@ -58,7 +58,7 @@ Your `User` model should also:
 - incorporate the `has_secure_password` macro to enable password encryption with
   `bcrypt`
 - validate the user's username to ensure that it is **present** and **unique**
-  (no two users can have the same username)
+  (no two users can have the same username) 
 - a user **has many** recipes
 
 Next, create a `Recipe` model with the following attributes:

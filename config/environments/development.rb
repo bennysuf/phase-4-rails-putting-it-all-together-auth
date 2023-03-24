@@ -26,7 +26,7 @@ Rails.application.configure do
 
     config.cache_store = :null_store
   end
-
+  config.action_controller.action_on_unpermitted_parameters = :raise
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
